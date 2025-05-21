@@ -37,6 +37,11 @@ plugins:
 # Remove posts from the homepage by disabling the post list in minima theme
 show_excerpts: false
 
+# Add custom CSS for Irving-inspired theme
+sass:
+  load_paths:
+    - assets
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

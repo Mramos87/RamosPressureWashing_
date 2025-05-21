@@ -1,0 +1,88 @@
+/* Custom styles for Ramos Pressure Washing - inspired by Irving (Squarespace) */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #f8f8f8;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1.5em 0 1em 0;
+  text-align: center;
+}
+.site-header img {
+  height: 70px;
+  margin-bottom: 0.5em;
+}
+.site-title {
+  display: block;
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #2d7a2d;
+  margin-bottom: 0.2em;
+}
+
+section {
+  background: #fff;
+  margin: 2em auto;
+  padding: 2em 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  max-width: 900px;
+}
+
+h1, h2, h3 {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #2d7a2d;
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+li {
+  margin-bottom: 1.2em;
+  font-size: 1.1em;
+}
+
+a.button, a[href^="/contact/"] {
+  background: #2d7a2d;
+  color: #fff !important;
+  padding: 1em 2em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  display: inline-block;
+  margin-top: 1em;
+  transition: background 0.2s;
+}
+a.button:hover, a[href^="/contact/"]:hover {
+  background: #1e551e;
+}
+
+footer {
+  background: #fff;
+  color: #888;
+  text-align: center;
+  padding: 2em 0 1em 0;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 3em;
+  font-size: 1em;
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 1em 0.5em;
+  }
+  .site-header img {
+    height: 50px;
+  }
+  .site-title {
+    font-size: 1.3em;
+  }
+}
