@@ -6,3 +6,57 @@ layout: default
 ---
 
 {% include custom-header.html %}
+
+<!-- Hero Section -->
+<section style="text-align:center; margin: 2em 0;">
+  <h1>Top Pressure Washing Company in [Your City/Area]</h1>
+  <h2>Professional Pressure Washing Services</h2>
+  <p>We deliver exceptional, reliable, and eco-friendly power washing solutions for homes and businesses. Our skilled team uses state-of-the-art equipment to handle even the toughest cleaning challenges.</p>
+  <a href="/contact/" style="display:inline-block; background:#2d7a2d; color:#fff; padding:1em 2em; border-radius:5px; text-decoration:none; font-weight:bold;">Get a Quote</a>
+</section>
+
+<!-- Services Overview -->
+<section style="max-width:900px; margin:2em auto;">
+  <h2>Our Services</h2>
+  <ul style="list-style:none; padding:0; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5em;">
+    <li><strong>Pressure Washing</strong><br>Driveways, sidewalks, patios, pavers, and more.</li>
+    <li><strong>House Washing</strong><br>Remove mold, algae, and stains from your home’s exterior.</li>
+    <li><strong>Roof Washing</strong><br>Gently remove algae, moss, and debris to extend roof life.</li>
+    <li><strong>Window Cleaning</strong><br>Streak-free, spotless finish for your exterior windows.</li>
+    <li><strong>Fence Cleaning</strong><br>Remove dirt, algae, and discoloration from fencing.</li>
+    <li><strong>Trash Can Cleaning</strong><br>Sanitize and eliminate odors from your trash cans.</li>
+    <li><strong>Commercial Services</strong><br>Storefronts, parking lots, dumpster pads, and more.</li>
+    <li><strong>Graffiti Removal</strong><br>Safe and efficient removal of graffiti from surfaces.</li>
+  </ul>
+</section>
+
+<!-- Process Section -->
+<section style="background:#f7f7f7; padding:2em 0;">
+  <h2 style="text-align:center;">How It Works</h2>
+  <ol style="max-width:700px; margin:2em auto; font-size:1.1em;">
+    <li><strong>Start the Conversation:</strong> Contact us by phone, email, or our contact form. We’ll learn about your project and may schedule an in-person inspection.</li>
+    <li><strong>Review the Job:</strong> We prepare a custom quote, make recommendations, and walk you through our process.</li>
+    <li><strong>Get Scheduled:</strong> Once you’re ready, we’ll arrange a time that fits your schedule and keep you updated.</li>
+  </ol>
+</section>
+
+<!-- Why Choose Us -->
+<section style="max-width:900px; margin:2em auto;">
+  <h2>Why Choose Us?</h2>
+  <ul style="list-style:none; padding:0; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5em;">
+    <li><strong>People:</strong> We treat your property with care and professionalism.</li>
+    <li><strong>Processes:</strong> Safe, repeatable, and effective cleaning methods.</li>
+    <li><strong>Real Value:</strong> Fair pricing, no hidden fees, and real results.</li>
+  </ul>
+</section>
+
+<!-- Call to Action -->
+<section style="text-align:center; margin:3em 0;">
+  <a href="/contact/" style="display:inline-block; background:#2d7a2d; color:#fff; padding:1em 2em; border-radius:5px; text-decoration:none; font-weight:bold; font-size:1.2em;">Get Started Today!</a>
+</section>
+
+<!-- Footer Links (optional) -->
+<footer style="text-align:center; margin:2em 0; color:#888;">
+  <p>Serving [Your City/Area] and surrounding communities.</p>
+  <p>&copy; 2025 Ramos Pressure Washing. All rights reserved.</p>
+</footer>
