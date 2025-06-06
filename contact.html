@@ -1,0 +1,53 @@
+<!-- Contact Us Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Ramos Pressure Washing</title>
+  <link rel="stylesheet" href="/assets/custom.css">
+</head>
+<body>
+  <header class="site-header" style="text-align:center;">
+    <img src="/assets/logoRPW.jpg" alt="Ramos Pressure Washing Logo" class="site-logo">
+    <span class="site-title">Ramos Pressure Washing</span>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="/index.html#services">Services</a></li>
+        <li><a href="/index.html#process">How It Works</a></li>
+        <li><a href="/index.html#why">Why Choose Us</a></li>
+        <li><a href="/index.html#quote">Get a Quote</a></li>
+        <li><a href="/contact.html" style="color:#1a4d1a;">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main style="max-width:600px; margin:3em auto; padding:2em; background:#fff; border-radius:10px; box-shadow:0 2px 12px rgba(0,0,0,0.07);">
+    <h1 style="text-align:center;">Contact Us</h1>
+    <p style="text-align:center;">We'd love to hear from you! Please fill out the form below or reach out using the contact information provided.</p>
+    <form name="contact" method="POST" data-netlify="true" style="display:flex; flex-direction:column; gap:1.2em;">
+      <input type="hidden" name="form-name" value="contact">
+      <label>
+        Name
+        <input type="text" name="name" required style="width:100%; padding:0.7em; border:1px solid #ccc; border-radius:5px;">
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required style="width:100%; padding:0.7em; border:1px solid #ccc; border-radius:5px;">
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="5" required style="width:100%; padding:0.7em; border:1px solid #ccc; border-radius:5px;"></textarea>
+      </label>
+      <button type="submit" class="button" style="width:fit-content; align-self:center;">Send Message</button>
+    </form>
+    <div style="margin-top:2em; text-align:center; color:#2d7a2d;">
+      <p><strong>Email:</strong> <a href="mailto:info@ramospressurewashing.com">info@ramospressurewashing.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:1234567890">(123) 456-7890</a></p>
+      <p><strong>Service Area:</strong> Dallas, Texas and surrounding communities</p>
+    </div>
+  </main>
+  <footer style="text-align:center; margin:2em 0; color:#888;">
+    <p>&copy; 2025 Ramos Pressure Washing. All rights reserved.</p>
+  </footer>
+</body>
+</html>
