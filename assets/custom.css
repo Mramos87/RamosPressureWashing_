@@ -17,13 +17,40 @@ body {
   height: 70px;
   margin-bottom: 0.5em;
 }
+.site-logo {
+  display: block;
+  margin: 0 auto 0.5em auto;
+  height: 140px;
+  max-width: 100%;
+}
 .site-title {
   display: block;
   font-size: 2.2em;
   font-weight: 700;
   letter-spacing: 2px;
   color: #2d7a2d;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+.site-nav {
+  margin: 1.5em 0 0 0;
+}
+.site-nav ul {
+  display: inline-flex;
+  gap: 2em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+.site-nav a {
+  text-decoration: none;
+  color: #2d7a2d;
+  transition: color 0.2s;
+}
+.site-nav a:hover {
+  color: #1a4d1a;
 }
 
 section {
@@ -75,14 +102,44 @@ footer {
   font-size: 1em;
 }
 
-@media (max-width: 600px) {
-  section {
-    padding: 1em 0.5em;
-  }
-  .site-header img {
-    height: 50px;
+/* Responsive header and navigation */
+@media (max-width: 700px) {
+  .site-logo {
+    height: 90px;
   }
   .site-title {
     font-size: 1.3em;
+  }
+  .site-nav ul {
+    flex-direction: column;
+    gap: 0.7em;
+    font-size: 1em;
+    align-items: center;
+  }
+  .site-nav {
+    margin-top: 1em;
+  }
+  main {
+    padding: 1em !important;
+    margin: 1.5em auto !important;
+  }
+  section, .site-header, footer {
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+  }
+  .button {
+    font-size: 1em;
+    padding: 0.7em 1.2em;
+  }
+  ul[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Make form fields and buttons more touch-friendly */
+@media (max-width: 500px) {
+  input, textarea, button {
+    font-size: 1em !important;
+    padding: 1em !important;
   }
 }
